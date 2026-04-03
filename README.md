@@ -1,21 +1,51 @@
-# 📊 Projeto: Análise de Risco de Evasão Escolar
+# 📊 Análise Preditiva de Risco de Evasão Escolar
 
-Este projeto aplica técnicas de **Data Science** e **Análise de Comportamento** para identificar alunos com maior probabilidade de desistência. Utilizei uma base de dados simulada para criar um modelo de pontuação (score) que ajuda na tomada de decisão preventiva.
+## 📌 Problema
+A evasão escolar impacta diretamente instituições de ensino, reduzindo receita e prejudicando indicadores acadêmicos.
 
-## 📁 Estrutura do Repositório
-* **data/**: Contém a base de dados `basealunosscoreevasao.xlsx` utilizada nas análises.
-* **sql/**: Scripts para criação de tabelas e consultas de taxas de evasão por faixa de pontuação.
-* **python/**: Script para limpeza de dados (Regex), automação do cálculo de risco e geração de gráficos.
+## 🎯 Objetivo
+Desenvolver um modelo de **Score de Risco de Evasão** para identificar alunos com maior probabilidade de abandono e permitir ações preventivas.
+
+---
 
 ## 🛠️ Tecnologias
-* **SQL**: Estruturação e extração de KPIs de negócio.
-* **Python (Pandas & Matplotlib)**: Tratamento de dados e visualização.
-* **VS Code**: Ambiente de desenvolvimento.
+- Python (Pandas, Matplotlib)
+- SQL (extração de KPIs)
+- Excel (base de dados)
 
-## 📉 Resultado da Análise
-O gráfico abaixo demonstra que alunos na faixa de **Baixo Score** possuem uma taxa de evasão significativamente superior, validando a necessidade de intervenção imediata para perfis de "Alto Risco" (Score < 400).
+---
 
+## 🔄 Etapas do Projeto
+1. Limpeza e tratamento de dados  
+2. Análise exploratória  
+3. Criação de score de risco  
+4. Segmentação de alunos por risco  
+5. Geração de visualizações  
+
+---
+
+## 📉 Principais Insights
+- Alunos com **baixo score (<400)** apresentam maior taxa de evasão  
+- É possível identificar padrões de risco antecipadamente  
+- Dados podem ser usados para ações de retenção  
+
+---
+
+## 📊 Visualização
 ![Gráfico de Evasão](imagens/grafico.png)
 
 ---
-**Desenvolvido por Bruno** *Estudante de Data Science e Análise de Comportamento - UniCesumar*
+
+## 🚀 Resultado
+O projeto permite identificar alunos com alto risco de evasão, possibilitando intervenções estratégicas para melhorar a retenção.
+
+---
+
+## 📁 Estrutura
+data/ src/ sql/ imagens/
+
+---
+
+## 👨‍💻 Autor
+Bruno Freitas de Souza  
+Estudante de Data Science
