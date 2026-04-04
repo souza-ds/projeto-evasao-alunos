@@ -41,8 +41,12 @@ O projeto permite identificar alunos com alto risco de evasão, possibilitando i
 
 ---
 
-## 📁 Estrutura
-data/ src/ sql/ imagens/
+## 📁 Estrutura do Projeto
+
+data/ → dados utilizados  
+src/ → scripts em Python  
+sql/ → consultas SQL  
+imagens/ → gráficos e resultados
 
 ---
 
